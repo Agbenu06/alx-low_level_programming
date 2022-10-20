@@ -1,6 +1,10 @@
 #include "main.h"
 
-/* Return: Always 0 (success) */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char *sh = "main";
@@ -12,7 +16,7 @@ int main(void)
 
 	}
 	_putchar('/n');
-	
+
 	return (0);
 }
 

@@ -4,9 +4,9 @@
  * print_sign - print the sign of a number
  * @n: is the char to be checked
  *
- * Return: 1 and prints + if n > 0
- * 0 and prints 0 if n = 0
- * -1 and prints - if n < 0
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
@@ -24,5 +24,5 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return ('-1');
+		return (-1);
 }
